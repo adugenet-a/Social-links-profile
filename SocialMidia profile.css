@@ -34,7 +34,7 @@ body{
 
 img{
     width: 10rem;
-    height: 6.5;
+    height: 6.5rem;
     border-radius: 18rem;
     margin-block-start: 2rem;
 }
@@ -47,7 +47,7 @@ main{
     justify-content: center;
     align-items: center;
     border-radius: 0.7rem;
-    margin: 15rem auto;
+    margin: 10rem auto;
     
 }
 ul{
