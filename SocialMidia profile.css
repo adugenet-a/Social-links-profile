@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family: Inter;
+    font-family: Inter-VariableFont_opsz;
     src: url(Inter-VariableFont_opsz,wght.ttf);
 }
 h1{
     font-weight: 700;
-    color:  hsl(0, 0%, 100%);
+    color:  white;
 }
 h2{
     color: hsl(75, 94%, 57%);
@@ -18,7 +18,7 @@ h2{
 
 }
 p{
-  color:hsl(0, 0%, 100%); 
+  color:white; 
   font-weight: 400;
   font-size: 0.7rem;
 }
@@ -26,20 +26,19 @@ p{
 body{
     min-height: 100vh;
     width:100vw;
-    font-family: Inter;
-    position: center;
+    font-family: Inter-VariableFont_opsz;
     background-color: black;
     line-height: 1.8rem;
        
 }
 
 img{
-    width: 150px;
-    height: 100px;
+    width: 10rem;
+    height: 6.5;
     border-radius: 18rem;
     margin-block-start: 2rem;
 }
-section{
+main{
     min-height: 25rem;
     width:30rem ;
     background-color:   hsl(0, 0%, 8%);
@@ -48,7 +47,7 @@ section{
     justify-content: center;
     align-items: center;
     border-radius: 0.7rem;
-    margin: 7rem auto;
+    margin: 15rem auto;
     
 }
 ul{
